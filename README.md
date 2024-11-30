@@ -1,4 +1,3 @@
-Bu proje, spor maçlarındaki oyuncuların otomatik olarak tespit edilmesi ve tespit edilen oyuncuların forma renklerine göre kümelenmesini amaçlamaktadır. Nesne tespiti için YOLOv8 modeli, özellik çıkarımı için VGG16 modeli kullanılmıştır. Kümeleme işlemi K-Means ve Aglomeratif Kümeleme algoritmaları ile gerçekleştirilmiştir. Modelin doğruluğu çeşitli performans metrikleri kullanılarak test edilmiş ve değerlendirilmiştir.
+This project aims to automatically detect players in sports matches and cluster the detected players based on their jersey colors. The YOLOv8 model was used for object detection, and the VGG16 model was used for feature extraction. Clustering was performed using the K-Means and Agglomerative Clustering algorithms. The accuracy of the model was tested and evaluated using various performance metrics.
 
-Detaylı araştırma için [Spor Maçlarında Oyuncu Tespiti ve Kümeleme](SporMaclarindaOyuncuTespitiveKumeleme.pdf) dosyasını okuyunuz.
-
+For a detailed analysis, please refer to the file [Player Detection and Clustering in Sports Matches](PlayerDetectionAndClusteringInSportsMatches.pdf).
